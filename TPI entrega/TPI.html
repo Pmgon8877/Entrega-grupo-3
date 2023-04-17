@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="enviarMensaje.js"></script>
+    <title>TPI</title>
+</head>
+<body>
+    <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+    <!--========================================================== -->
+
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Contactanos al +54 351-2411698</p>
+        
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+          <span class="fs-5 text-primary fw-bold">TPI</span>
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="TPI.html">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#equipo">Equipo</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="presupuesto.html">Presupuesto</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">Contactos</a>
+              </li>
+            </ul>
+              
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+              <button class="btn btn-primary btn-pimary-outline-success" type="button">Suscribete</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+      <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/slide4.jpg" class="d-block w-100" alt="slide4">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide5.jpg" class="d-block w-100" alt="slide5">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide6.jpg" class="d-block w-100" alt="slide6">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!--========================================================== -->
+                <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
+
+      <section class="d-flex flex-column justify-content-center align-items-center pt-5 text-center w-50 m-auto" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Agencia dedicada para 
+        tus trabajos de<span class="text-primary"> Marketing Digital</span></h1>
+        <p><span class="text-primary">TPI </span>tu agencia, donde te acompañamos a marcar tu 
+        presencia online. SEO, paginas WEB, tiendas virtuales, redes sociales.</p>
+      </section>
+
+
+    <!--========================================================== -->
+                <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+    <section class="w-100 bg-light" >
+      <div class="row w-75 mx-auto" id="servicios-fila-1">       
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+              <img src="./img/desarrollo.png" alt="desarrollo"   width="180" height="160">
+  
+              <div>
+                  <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
+                  <p class="px-4">Desarrollo de aplicaciones WEB, moviles y ecommerce</p>
+              </div>
+  
+          </div>
+  
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+              <img src="./img/concepto.png" alt="concepto" width="180" height="160">
+  
+              <div>
+                  <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Branding</h3>
+                  <p class="px-4">Diseño, Conceptualización e Implementación de productos digitales</p>
+              </div>
+          </div>   
+      </div>
+      
+      <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+              <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
+  
+              <div>
+                  <h3 class="fs-5 mt-4 px-4 pb-1">Comunicaciones</h3>
+                  <p class="px-4">Desarrollamos planes de comunicación para sus clientes.</p>
+              </div>
+          </div>
+  
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+              <img src="./img/seo.png" alt="seo" width="180" height="160" >
+  
+              <div>
+                  <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
+                  <p class="px-4">Analizamos la eficiencia y optimizamos los sitios WEB.</p>
+              </div>
+          </div>   
+      </div>
+  </section>
+
+<!--========================================================== -->
+                        <!-- SECCION ACERCA DE NOSOTROS-->
+<!--========================================================== -->
+
+<section>
+    <div class="container w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Equipo pequeño pero con<span class="text-primary">
+        Grandes Resultados</span></h1>
+        <p class="fs-4">En busca de personas idoneas, para que trabajen con nosotros. 
+        Si estas preparado para este reto, unite a nosotros.</p>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="card" id="user-card1">
+          <img class="card-img-top" src="" alt="Foto">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text" id="nacionalidad"> </p>
+            <p class="card-text" id="años"> </p>
+            <p class="card-text" id="celular"> </p>
+            <div class="card-footer">
+              <p class="card-text" id="email"> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="user-card2">
+          <img class="card-img-top" src="" alt="Foto">
+          <div class="card-body">
+            <h5 class="card-title">Nombre del usuario</h5>
+            <p class="card-text" id="nacionalidad"> </p>
+            <p class="card-text" id="años"> </p>
+            <p class="card-text" id="celular"> </p>
+            <div class="card-footer">
+              <p class="card-text" id="email"> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="user-card3">
+          <img class="card-img-top" src="" alt="Foto">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text" id="nacionalidad"> </p>
+            <p class="card-text" id="años"> </p>
+            <p class="card-text" id="celular"> </p>
+            <div class="card-footer">
+              <p class="card-text" id="email"> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" id="user-card4">
+          <img class="card-img-top" src="" alt="Foto">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text" id="nacionalidad"> </p>
+            <p class="card-text" id="años"> </p>
+            <p class="card-text" id="celular"> </p>
+            <div class="card-footer">
+              <p class="card-text" id="email"> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--========================================================== -->
+                        <!--CONTENEDOR DE UBICACION-->
+<!--========================================================== -->
+
+    <div id="local" class="border-top border-2">
+        <div class="mapa"></div>
+        <div>
+            <div class="wrapper-local">
+                <h2>Ubicado en Córdoba-Capital, Argentina</h2>
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+                <p class="fs-5 text-body">Elegimos Córdoba para nuestras oficinas, con el fin de estar cerca de nuestros clientes.
+                    Estamos ubicados en el corazón de la "docta" y del país. Cerca de los mejores restaurantes, bares, 
+                    tiendas y a tan solo 20 minutos del aeropuerto. Visitanos, no te vas a arrepentir!</p>
+                <div container="d-flex justify-content-start">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card justify-content-center">
+                        <div class="card-body">
+                          <h5 class="card-title" >Temperatura</h5>
+                          <div class="row justify-content-center">
+                            <h2 class="col" id="temperatura"></h2>
+                            <h2 class="col" id="tipotemp"></h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Viento</h5>
+                          <div class="row justify-content-center">
+                            <h2 class="col" id="viento"></h2>
+                            <h2 class="col" id="tipovien"></h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Lluvia probable</h5>
+                          <div class="row justify-content-center">
+                            <h2 class="col" id="lluvia"></h2>
+                            <h2 class="col" id="tipolluvia"></h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--========================================================== -->
+                        <!-- SECCION CONTACTOS-->
+<!--========================================================== -->
+
+
+<section id="seccion-contacto" class="border-bottom border-secondary border-2">
+    <div id="bg-contactos">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" 
+        fill-opacity="1" d="M0,128L120,149.3C240,171,480,213,720,229.3C960,245,1200,235,1320,229.3L1440,
+        224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    </div>
+<!--========================================================== -->
+                      <!-- CONTENEDOR DEL FORMULARIO -->
+<!--========================================================== -->
+
+  <div class="container border-top border-primary" style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Contactos</h2>
+        <p class="fs-5">Estamos acá para hacer realidad tus proyectos</p>
+      </div>
+
+
+
+    <form method="POST" data-netlify="true" action="#">
+        <div class="mb-3">
+          <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+          <span id="validarEmail"> Completar este campo</span>
+        </div>
+
+        <div class="mb-3">
+          <input type="input" class="form-control" id="name" name="name" placeholder="Pablo Gonzalez">
+          <span id="validarName"> Completar este campo</span>
+        </div>
+
+        <div class="mb-3">
+          <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+          <span id="validarPhone"> Completar este campo</span>
+        </div>
+
+      <div class="mb-3">
+      <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+      <span id="validarMessage"> Completar este campo</span>
+      </div>
+
+      <div class="mb-3">
+        <button type="submit" href="titulo-formulario" class="btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+          
+      </div>
+    </form>
+
+  </div>    
+</section>
+</div>
+
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3">TPI &copy; Todos Los Derechos Reservados 2023</p>
+  <div id="iconos" >
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a> 
+      <a target="_blank" href="https://github.com/johnpoppa/VSCode/find/main" ><i class="bi bi-github"></i></a> 
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+   
+</body>
+</html>

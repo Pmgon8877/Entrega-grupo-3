@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Presupuesto</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bd-wizard.css">
+</head>
+<body>
+  <header>
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+      <p class="text-light mb-0 p-2 fs-6">Contactanos al +54 351-2411698</p>
+      
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="fs-5 text-primary fw-bold">TPI</span>
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="TPI.html">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">Presupuesto</a>
+            </li>
+          
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="d-flex align-items-center">
+    <div class="container">
+        <div id="wizard">
+          <h3>Paso 1</h3>
+          <section>
+           <h5 class="bd-wizard-step-title">Paso 1</h5>
+           <h2 class="section-heading">Selecciona lo que necesitas </h2>
+           <p>Aqui debes seleccionar, cual es la estructura de trabajo que necesita que realicemos</p>
+           <div class="purpose-radios-wrapper">
+              <div class="purpose-radio">
+                  <input type="radio" name="purpose" id="branding" class="purpose-radio-input" value="Branding" checked>
+                 <label for="branding" class="purpose-radio-label">
+                   <span class="label-icon">
+                     <img src="assets/images/icon_branding.svg" alt="branding" class="label-icon-default">
+                     <img src="assets/images/icon_branding.svg" alt="branding" class="label-icon-active">
+                   </span>
+                   <span class="label-text">Marca</span>
+                 </label>
+                </div>
+                <div class="purpose-radio">
+                   <input type="radio" name="purpose" id="mobile-design" class="purpose-radio-input" value="Mobile Design">
+                  <label for="mobile-design" class="purpose-radio-label">
+                    <span class="label-icon">
+                      <img src="assets/images/icon_mobile_design.svg" alt="branding" class="label-icon-default">
+                      <img src="assets/images/icon_mobile_design.svg" alt="branding" class="label-icon-active">
+                    </span>
+                    <span class="label-text">Diseño mobile</span>
+                  </label>
+                 </div>
+                 <div class="purpose-radio">
+                     <input type="radio" name="purpose" id="web-design" class="purpose-radio-input" value="Web Design">
+                    <label for="web-design" class="purpose-radio-label">
+                      <span class="label-icon">
+                        <img src="assets/images/icon_web_design.svg" alt="branding" class="label-icon-default">
+                        <img src="assets/images/icon_web_design.svg" alt="branding" class="label-icon-active">
+                      </span>
+                      <span class="label-text">Diseño web</span>
+                    </label>
+                   </div>
+           </div>
+          </section>
+          <h3>Paso 2</h3>
+          <section>
+            <h5 class="bd-wizard-step-title">Paso 2</h5>
+            <h2 class="section-heading">Ingresa tus datos</h2>
+            <div class="form-group">
+              <label for="firstName" class="sr-only">Nombre</label>
+              <input type="text" name="firstName" id="firstName" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <label for="lastName" class="sr-only">Apellido</label>
+              <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Apellido">
+            </div>
+            <div class="form-group">
+              <label for="phoneNumber" class="sr-only">Telefono</label>
+              <input type="text" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="Telefono">
+            </div>
+            <div class="form-group">
+              <label for="emailAddress" class="sr-only">Email </label>
+              <input type="email" name="emailAddress" id="emailAddress" class="form-control" placeholder="Email ">
+            </div>
+          </section>
+          <h3>Paso 3</h3>
+          <section>
+              <h5 class="bd-wizard-step-title">Paso 3</h5>
+              <h2 class="section-heading mb-5">Revisa tus datos</h2>
+              <h6 class="font-weight-bold">Selecciona lo que necesitas</h6>
+              <p class="mb-4" id="business-type">Marca</p>
+              <h6 class="font-weight-bold">Ingresa tus datos</h6>
+              <p class="mb-4"><span id="enteredFirstName">Pablo</span> <span id="enteredLastName">Gonzalez</span> <br>
+                  Telefono: <span id="enteredPhoneNumber">+230-582-6609</span> <br>
+                  Email: <span id="enteredEmailAddress">william_morris@gmail.com</span></p>
+
+          </section>
+        </div>
+    </div>
+  </main>
+
+  <!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3">TPI &copy; Todos Los Derechos Reservados 2023</p>
+  <div id="iconos" >
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a> 
+      <a target="_blank" href="https://github.com/johnpoppa/VSCode/find/main" ><i class="bi bi-github"></i></a> 
+  </div>
+</footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.steps.min.js"></script>
+  <script src="assets/js/bd-wizard.js"></script>
+</body>
+</html>
